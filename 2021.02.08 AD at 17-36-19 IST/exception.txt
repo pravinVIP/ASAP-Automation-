@@ -1,0 +1,10 @@
+java.io.FileNotFoundException: 
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.mycompany.input.Reading.inputCache(Reading.java:29)
+	at com.mycompany.input.InputReader.reader(InputReader.java:33)
+	at com.mycompany.performancetest.ThreadRunningToTrack.startTrack(ThreadRunningToTrack.java:61)
+	at com.mycompany.performancetest.UrlTrack.run(ThreadRunningInSequence.java:45)
